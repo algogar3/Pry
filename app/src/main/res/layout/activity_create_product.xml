@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/image_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/product_name"
+            android:inputType="textPersonName|textCapSentences" />
+
+        <Spinner
+            android:id="@+id/spinner_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/switch_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_priority"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_ok" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_cancel" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

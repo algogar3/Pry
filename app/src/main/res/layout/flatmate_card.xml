@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="150dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="6dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCardsCompanyeros"
+        android:gravity="top|center_vertical"
+        android:minHeight="150dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_account_circle_black_48dp" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:padding="5dp"
+            android:text="Nickname"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:id="@+id/linea"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/nickname"
+            android:layout_toRightOf="@+id/profile_image"
+            android:background="#ffd5d5d5">
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/name_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickname"
+            android:layout_below="@+id/nickname"
+            android:padding="1dp"
+            android:text="Name and surname"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickname"
+            android:layout_below="@+id/name_surname"
+            android:padding="1dp"
+            android:text="Phone number"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/expense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickname"
+            android:layout_below="@+id/phone"
+            android:padding="1dp"
+            android:text="Expense"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickname"
+            android:layout_below="@+id/expense"
+            android:layout_marginBottom="5dp"
+            android:padding="1dp"
+            android:text="Descripcion"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

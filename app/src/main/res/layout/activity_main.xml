@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/image_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/default_home"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btn_flatmates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_flatmates" />
+
+        <Button
+            android:id="@+id/btn_tasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_tasks" />
+
+        <Button
+            android:id="@+id/btn_shopping_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_shopping_list" />
+
+        <Button
+            android:id="@+id/btn_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_notes" />
+
+        <Button
+            android:id="@+id/btn_expenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_expenses" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_product" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_product" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_product_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/product_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/product_cost"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+</LinearLayout>

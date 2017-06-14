@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APLICATION -->
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorPrimaryLight">#CFD8DC</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <!-- COMPANYEROS -->
+    <color name="colorCardsCompanyeros">#D8D8D8</color>
+
+    <!-- FAB -->
+    <color name="colorFAB">#FD8C00</color>
+
+    <!-- PRODUCTS -->
+    <color name="colorCardsAlimentacionNotPriority">#F2F5A9</color>
+    <color name="colorCardsAlimentacionPriority">#F3F781</color>
+    <color name="colorCardsLimpiezaNotPriority">#BCF5A9</color>
+    <color name="colorCardsLimpiezaPriority">#9FF781</color>
+    <color name="colorCardsOtrosNotPriority">#CEECF5</color>
+    <color name="colorCardsOtrosPriority">#81DAF5</color>
+
+    <!-- NOTES -->
+    <color name="colorPostIt">#e3e546</color>
+
+    <!-- SPLASH -->
+    <color name="splash_activity_color">#FE8B00</color>
+
+</resources>

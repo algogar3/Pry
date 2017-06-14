@@ -1,0 +1,40 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/graph_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_invoices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invoices" />
+
+        <Button
+            android:id="@+id/btn_contract_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contract_info" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<resources>
+    <!-- APP -->
+    <string name="app_name">Homalia</string>
+    <string name="welcome_to_homalia">"Bienvenido a Homalia!"</string>
+
+    <!-- COMMON AND MAIN ACTIVITY BUTTONS -->
+    <string name="btn_ok">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_signup">Registrarse</string>
+    <string name="btn_flatmates">Compañeros</string>
+    <string name="btn_tasks">Tareas</string>
+    <string name="btn_shopping_list">Lista de la compra</string>
+    <string name="btn_notes">Notas</string>
+    <string name="btn_expenses">Gastos</string>
+
+    <!-- LOGIN -->
+    <string name="first_name">nombre</string>
+    <string name="last_name">apellidos</string>
+    <string name="pass_forgotten">He olvidado mi contraseña</string>
+    <string name="email">email</string>
+    <string name="password">contraseña</string>
+    <string name="repeat_password">repite la contraseña</string>
+    <string name="nick">"nombre público"</string>
+    <string name="birth_date">"Fecha de nacimiento"</string>
+    <string name="phone">"teléfono"</string>
+    <string name="description">"describe cómo eres cuando compartes piso"</string>
+    <string name="mandatory_fields">"Campos obligatorios"</string>
+    <string name="not_mandatory_fields">"Campos opcionales.\r\nPodrás editarlos en cualquier momento"</string>
+    <string name="signup_canceled">"El registro en Homalia ha sido cancelado"</string>
+    <string name="signup_ok">"Tu registro ha sido completado con éxito"</string>
+    <string name="email_sent">"Comprueba tu correo y sigue las instrucciones para restablecer tu contraseña"</string>
+    <string name="description_short">"descripción"</string>
+    <string name="personal_info">"Datos personales"</string>
+
+    <!-- PROGRESS DIALOG -->
+    <string name="title_progress_dialog">"Conectando con tu casa"</string>
+    <string name="message_progress_dialog">"Esto no tardará mucho..."</string>
+
+    <!-- CREATE OR JOIN HOME -->
+    <string name="home_name">"nombre de la casa"</string>
+    <string name="home_id">"id de la casa"</string>
+    <string name="home_created">"Casa creada con éxito"</string>
+    <string name="home_joined">"Te has unido a la casa"</string>
+
+    <!-- FLATMATES -->
+    <string name="name">"Nombre: "</string>
+    <string name="accumulated_expenses">"Gasto acumulado: "</string>
+    <string name="phone_number">"Número de teléfono: "</string>
+    <string name="description_flatmate">"Descripción: "</string>
+    <string name="personal_data_updated">"Información personal actualizada"</string>
+
+    <!-- NOTES -->
+    <string name="no_notes_to_show">"Sin notas"</string>
+    <string name="content_new_note">"Contenido de la nueva nota"</string>
+    <string name="content_empty">"El contenido de la nota está vacío"</string>
+    <string name="note_created">"Nota insertada correctamente"</string>
+    <string name="note_canceled">"Nota cancelada"</string>
+    <string name="delete_note_permission_denied">"No tienes permiso para eliminar la nota"</string>
+    <string name="confirm_delete_note_dialog_title">"¿Deseas eliminar la nota?"</string>
+    <string name="confirm_delete_note_dialog_positive">"Eliminar"</string>
+    <string name="confirm_delete_note_dialog_negative">"Cancelar"</string>
+    <string name="confirmed_delete_note">"Nota eliminada"</string>
+    <string name="canceled_delete_note">"Eliminación cancelada"</string>
+
+
+    <!-- PRODUCTS -->
+    <string name="no_products_to_show">"Sin productos"</string>
+    <string name="delete_product">"Eliminar"</string>
+    <string name="buy_product">"Marcar como comprado"</string>
+    <string name="product_cost">"coste del producto"</string>
+    <string name="product_swipe_options">"¿Qué quieres hacer con el producto?"</string>
+    <string name="product_cost_empty">"Debes introducir el coste del producto"</string>
+    <string name="product_deleted">"El producto ha sido eliminado"</string>
+    <string name="product_purchased">"Producto comprado"</string>
+    <string name="product_created">"Producto añadido a la lista"</string>
+    <string name="product_canceled">"Producto cancelado"</string>
+    <string name="product_priority">"Marcar como urgente"</string>
+    <string name="product_name">"nombre del producto"</string>
+    <string name="added_by">"Añadido a la lista por: "</string>
+    <string name="product_cat_1">"Alimentación"</string>
+    <string name="product_cat_2">"Limpieza"</string>
+    <string name="product_cat_3">"Otros"</string>
+
+
+    <!-- SERVICES -->
+    <string name="electricity">"Electricidad"</string>
+    <string name="water">"Agua"</string>
+    <string name="gas">"Gas"</string>
+    <string name="phone_internet">"Teléfono e internet"</string>
+    <string name="contract_info">"Información del contrato"</string>
+    <string name="invoices">"Facturas"</string>
+    <string name="edit">"Editar"</string>
+    <string name="holders_name">"Titular"</string>
+    <string name="holders_id">"DNI del titular"</string>
+    <string name="contract_numer">"Número de contrato"</string>
+    <string name="accept_changes">"Debes aceptar los cambios antes de continuar"</string>
+    <string name="contract_updated">"Información de contrato acutalizada"</string>
+
+
+    <!-- INVOICES -->
+    <string name="no_invoices_to_show">"Sin facturas"</string>
+    <string name="confirm_delete_invoice_dialog_title">"¿Borrar factura?"</string>
+    <string name="new_invoice">"Nueva factura"</string>
+    <string name="invoice_data">"Introduce el importe y la fecha de cargo"</string>
+    <string name="amount">"Importe"</string>
+    <string name="confirmed_delete_invoice">"Factura eliminada"</string>
+    <string name="invoice_created">"Factura insertada correctamente"</string>
+    <string name="invoice_canceled">"Factura cancelada"</string>
+    <string name="amount_card">"Importe: "</string>
+    <string name="invoice_date">"Fecha de cargo: "</string>
+    <string name="content_amount_empty">"Debes indicar el importe de la factura"</string>
+
+
+    <!-- DIALOGS -->
+    <string name="no_home_action_dialog_title">"Parece que aún no perteneces a ninguna casa..."</string>
+    <string name="no_home_action_dialog_message">"¿Qué quieres hacer?"</string>
+    <string name="no_home_action_dialog_negative">"Unirse a casa"</string>
+    <string name="no_home_action_dialog_positive">"Crear casa"</string>
+
+    <!-- PICTURES -->
+    <string name="select_profile_picture">"Selecciona tu foto de perfil"</string>
+
+    <!-- ACTION BAR -->
+    <string name="personal_data">"Datos de usuario"</string>
+    <string name="share_house">"Invitar a casa"</string>
+    <string name="leave_house">"Abandonar casa"</string>
+    <string name="about">"Acerca de"</string>
+    <string name="new_note">"Nueva nota"</string>
+    <string name="new_product">"Nuevo producto"</string>
+    <string name="about_description">"App desarrollada por Alberto Gómez García\nDirección de correo algogar3@gmail.com\nEstudiante de Aula Campus"</string>
+    <string name="leave_house_text">"¿Seguro que quieres abandonar la casa?"</string>
+    <string name="share_house_text">"Si quieres invitar a un nuevo compañero de piso, proporcionale los siguientes detalles:"</string>
+    <string name="leave_house_cancelled">"Abandono de casa cancelado"</string>
+    <string name="leave_house_accepted">"Has abandonado la casa"</string>
+
+    <!-- GRAPHICS -->
+    <string name="no_data_text">"No hay datos para mostrar"</string>
+
+    <!-- ERRORS -->
+    <string name="login_failed">"Usuario y/o contraseña incorrectos"</string>
+    <string name="check_your_data">"Oops! Comprueba tus datos"</string>
+    <string name="passwords_dont_match">"Las contraseñas no coinciden"</string>
+    <string name="password_length">"La contraseña debe tener al menos 6 caracteres"</string>
+    <string name="invalid_email">"El email introducido no es válido"</string>
+    <string name="mandatory_fileds_empty">"Debes rellenar todos los campos obligatorios"</string>
+    <string name="profile_picture_functionality_not_activated">"El cambio de la foto de perfil no está implementado para esta versión..."</string>
+
+</resources>

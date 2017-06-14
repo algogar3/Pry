@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\algog\.android\build-cache\4292894e9e1c9ff0fe376af67bf9fbf5e46802e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="56c6a22c42588628903e9dda5d8f3aa1c1b4372f">
+        <dex dex="C:\Users\algog\Documents\ProyectosPMMLocalCasa\Homalia\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85931d72cc568c37921226cf16c06d83afe0d0ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\algog\Documents\ProyectosPMMLocalCasa\Homalia\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a4ca3eb3b5fb120b787cf465a7d97ff2a45363e">
+        <dex dex="C:\Users\algog\Documents\ProyectosPMMLocalCasa\Homalia\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f9555cfab9497f7c9bcd642b0cc4b809605f520b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\algog\Documents\ProyectosPMMLocalCasa\Homalia\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\algog\Documents\ProyectosPMMLocalCasa\Homalia\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2a21123af5279480af65c9f41dee3587f47fdf15\classes.dex" />
+    </item>
+
+</items>

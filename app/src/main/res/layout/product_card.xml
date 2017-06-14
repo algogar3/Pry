@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp"
+    android:id="@+id/cv"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="6dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/product_category_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_local_dining_black_48dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/product_category_image"
+            android:padding="5dp"
+            android:text="Patatas"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5"
+            android:id="@+id/linea"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/product_category_image">
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/addedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name"
+            android:layout_below="@+id/name"
+            android:padding="1dp"
+            android:text="añadido por usuario"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/dateAdded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name"
+            android:layout_below="@+id/addedBy"
+            android:padding="1dp"
+            android:text="2017-02-12 12:20"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

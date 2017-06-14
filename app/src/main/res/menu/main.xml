@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.algog.homalia.MainActivity">
+
+    <group android:id="@+id/basic_group">
+        <item
+            android:id="@+id/personal_data"
+            android:orderInCategory="100"
+            android:title="@string/personal_data"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/share_house"
+            android:orderInCategory="100"
+            android:title="@string/share_house"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/leave_house"
+            android:orderInCategory="100"
+            android:title="@string/leave_house"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/about"
+            android:orderInCategory="100"
+            android:title="@string/about"
+            app:showAsAction="never" />
+    </group>
+</menu>

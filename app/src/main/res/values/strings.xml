@@ -1,0 +1,146 @@
+<resources>
+    <!-- APP -->
+    <string name="app_name">Homalia</string>
+    <string name="welcome_to_homalia">"Welcome to Homalia!"</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="btn_flatmates">Flatmates</string>
+    <string name="btn_tasks">Tasks</string>
+    <string name="btn_shopping_list">Shopping list</string>
+    <string name="btn_notes">Notes</string>
+    <string name="btn_expenses">Expenses</string>
+
+    <!-- COMMON LOGIN -->
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="pass_forgotten">I have forgotten my password</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="repeat_password">repeat password</string>
+    <string name="nick">"nick name"</string>
+    <string name="birth_date">"Birth date"</string>
+    <string name="phone">"phone"</string>
+    <string name="description">"describe yourself when your are sharing a flat"</string>
+    <string name="mandatory_fields">"Required fields"</string>
+    <string name="not_mandatory_fields">"Optional fields.\r\nYou will be able to edit the at any time"</string>
+    <string name="signup_canceled">"Signing up process in Homalia has been cancelled"</string>
+    <string name="signup_ok">"Signing up process was succesful"</string>
+    <string name="email_sent">"Check your email and follow the instructions to restore your password"</string>
+    <string name="description_short">"description"</string>
+    <string name="personal_info">"Personal data"</string>
+
+    <!-- PROGRESS DIALOG -->
+    <string name="title_progress_dialog">"Connecting with your home"</string>
+    <string name="message_progress_dialog">"It won't take too long..."</string>
+
+    <!-- CREATE OR JOIN HOME -->
+    <string name="home_name">"house name"</string>
+    <string name="home_id">"house id"</string>
+    <string name="home_created">"House created successfully"</string>
+    <string name="home_joined">"You have joined a house"</string>
+
+    <!-- FLATMATES -->
+    <string name="name">"Name: "</string>
+    <string name="accumulated_expenses">"Accumulated expenses: "</string>
+    <string name="phone_number">"Phone number: "</string>
+    <string name="description_flatmate">"Description: "</string>
+    <string name="personal_data_updated">"Personal data updated"</string>
+
+    <!-- NOTES -->
+    <string name="no_notes_to_show">"No notes to show"</string>
+    <string name="content_new_note">"Content for new note"</string>
+    <string name="content_empty">"New note's content is empty"</string>
+    <string name="note_created">"Note created successfully"</string>
+    <string name="note_canceled">"Note canceled"</string>
+    <string name="delete_note_permission_denied">"You don't have permission to delete this note"</string>
+    <string name="confirm_delete_note_dialog_title">"Delete note?"</string>
+    <string name="confirm_delete_note_dialog_positive">"Delete"</string>
+    <string name="confirm_delete_note_dialog_negative">"Cancel"</string>
+    <string name="confirmed_delete_note">"Note deleted"</string>
+    <string name="canceled_delete_note">"Elimination cancelled"</string>
+
+    <!-- PRODUCTS -->
+    <string name="no_products_to_show">"No products to show"</string>
+    <string name="delete_product">"Delete"</string>
+    <string name="buy_product">"Mark as purchased"</string>
+    <string name="product_cost">"cost of the product"</string>
+    <string name="product_swipe_options">"What do you want to do with the product?"</string>
+    <string name="product_cost_empty">"You have to introduce the product cost"</string>
+    <string name="product_deleted">"The product has been removed"</string>
+    <string name="product_purchased">"Product purchased"</string>
+    <string name="product_created">"Product added to shopping list"</string>
+    <string name="product_canceled">"Product canceled"</string>
+    <string name="product_priority">"Set as important"</string>
+    <string name="product_name">"product name"</string>
+    <string name="added_by">"Added by: "</string>
+    <string name="product_cat_1">"Food"</string>
+    <string name="product_cat_2">"Cleaning"</string>
+    <string name="product_cat_3">"Others"</string>
+
+    <!-- SERVICES -->
+    <string name="electricity">"Electricity"</string>
+    <string name="water">"Water"</string>
+    <string name="gas">"Gas"</string>
+    <string name="phone_internet">"Phone and internet"</string>
+    <string name="contract_info">"Contract information"</string>
+    <string name="invoices">"Invoices"</string>
+    <string name="edit">"Edit"</string>
+    <string name="holders_name">"Holder"</string>
+    <string name="holders_id">"Holder ID"</string>
+    <string name="contract_numer">"Contract ID"</string>
+    <string name="accept_changes">"Please accept changes before continue"</string>
+    <string name="contract_updated">"Contract information updated"</string>
+
+    <!-- INVOICES -->
+    <string name="no_invoices_to_show">"No invoices to show"</string>
+    <string name="confirm_delete_invoice_dialog_title">"Delete invoice?"</string>
+    <string name="new_invoice">"New invoice"</string>
+    <string name="invoice_data">"Set the amount and date of invoice charge"</string>
+    <string name="amount">"Amount"</string>
+    <string name="confirmed_delete_invoice">"Invoice deleted"</string>
+    <string name="invoice_created">"Invoice added successfully"</string>
+    <string name="invoice_canceled">"Invoice cancelled"</string>
+    <string name="amount_card">"Amount: "</string>
+    <string name="invoice_date">"Due date: "</string>
+    <string name="content_amount_empty">"Please introduce invoice amount"</string>
+
+
+    <!-- DIALOGS -->
+    <string name="no_home_action_dialog_title">"It seems you haven't joined any home yet..."</string>
+    <string name="no_home_action_dialog_message">"¿What do you want to do?"</string>
+    <string name="no_home_action_dialog_negative">"Join home"</string>
+    <string name="no_home_action_dialog_positive">"Create home"</string>
+
+    <!-- PICTURES -->
+    <string name="select_profile_picture">"Select your profile picture"</string>
+
+    <!-- ACTION BAR -->
+    <string name="personal_data">"User data"</string>
+    <string name="share_house">"Share house"</string>
+    <string name="leave_house">"Leave house"</string>
+    <string name="about">"About us"</string>
+    <string name="new_note">"New note"</string>
+    <string name="new_product">"New product"</string>
+    <string name="about_description">"App developed by Alberto Gómez García\nEmail address algogar3@gmail.com\nStudent of Aula Campus"</string>
+    <string name="leave_house_text">"Are you sure you want to leave the house?"</string>
+    <string name="share_house_text">"If you want to invete a new flatmate, just give him/her the following details:"</string>
+    <string name="leave_house_cancelled">"Leave cancelled"</string>
+    <string name="leave_house_accepted">"You have left the house"</string>
+
+    <!-- GRAPHICS -->
+    <string name="no_data_text">"There's no data to show"</string>
+
+    <!-- ERRORS -->
+    <string name="check_your_data">"Oops! Check your data"</string>
+    <string name="login_failed">"Invalid user email or password"</string>
+    <string name="passwords_dont_match">"Passwords do not match"</string>
+    <string name="password_length">"Password must have 6 characters at least"</string>
+    <string name="invalid_email">"Email introduced is not valid"</string>
+    <string name="mandatory_fileds_empty">"You have to fill all mandatory fields"</string>
+    <string name="profile_picture_functionality_not_activated">"Changing profile picture is not supported yet..."</string>
+
+</resources>

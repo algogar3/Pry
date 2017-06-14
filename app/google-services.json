@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "714157530437",
+    "firebase_url": "https://prueba-914c7.firebaseio.com",
+    "project_id": "prueba-914c7",
+    "storage_bucket": "prueba-914c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714157530437:android:162d1539823034df",
+        "android_client_info": {
+          "package_name": "com.example.algog.homalia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714157530437-i09mn24rq45ejgb1i98246348jmjp6tq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.algog.homalia",
+            "certificate_hash": "c7efbe3979fc8bc6cb421b495ad89a94efc75ff7"
+          }
+        },
+        {
+          "client_id": "714157530437-m8b84qivur3qio1gr9oummk6sa3iqrgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWP4MAgfzp0qgGkOwDSLwcpCRB9KTWnws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714157530437-m8b84qivur3qio1gr9oummk6sa3iqrgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
